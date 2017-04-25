@@ -1,4 +1,4 @@
-from learning.method import LearningMethod
+from snn.learning.method import LearningMethod
 
 """
 Basic Reinforcement Learning Method

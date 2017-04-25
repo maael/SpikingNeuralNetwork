@@ -1,5 +1,5 @@
 import numpy as np
-from learning.method import LearningMethod
+from snn.learning.method import LearningMethod
 
 """
 Basic STDP Learning Method

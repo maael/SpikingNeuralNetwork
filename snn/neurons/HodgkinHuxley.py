@@ -1,5 +1,5 @@
 import numpy as np
-from neurons.neuron import Neuron
+from snn.neurons.neuron import Neuron
 
 """
 Hodgkin-Huxley biophysically inspired neuron model
