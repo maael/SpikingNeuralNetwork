@@ -1,0 +1,11 @@
+appdirs==1.4.3
+cycler==0.10.0
+decorator==4.0.11
+matplotlib==2.0.0
+networkx==1.11
+numpy==1.12.1
+packaging==16.8
+pyparsing==2.2.0
+python-dateutil==2.6.0
+pytz==2017.2
+six==1.10.0
