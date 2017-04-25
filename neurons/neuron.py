@@ -20,3 +20,6 @@ class Neuron:
 
   def init_weight(self, num_weights):
     return np.random.uniform(-(2 / num_weights), (2 / num_weights))
+
+  def solve(self):
+    raise NotImplementedError("A neuron model needs a solve method")
