@@ -13,4 +13,7 @@ setup(
   download_url='https://github.com/maael/SpikingNeuralNetwork',
   author='Matthew Elphick',
   author_email='matt.a.elphy@gmail.com',
+  classifiers=[
+    'Programming Language :: Python :: 3'
+  ],
   packages=find_packages())

@@ -1,6 +1,6 @@
-from neurons.LeakyIntegrateAndFireNeuron import LeakyIntegrateAndFireNeuron
-from learning.stdp import STDP
-from network.snn import SNN
+from snn.neurons.LeakyIntegrateAndFireNeuron import LeakyIntegrateAndFireNeuron
+from snn.learning.stdp import STDP
+from snn.network.snn import SNN
 
 net = SNN(3, [2, 4], 6, LeakyIntegrateAndFireNeuron, STDP())
 print(net.layers[0][0].weights)
