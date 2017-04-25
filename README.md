@@ -7,3 +7,8 @@ It includes two neuron models, the simplified Leaky Integrate and Fire model and
 
 ## Learning Methods
 It includes two learning methods, Spike Timing Dependent Plasticity (STDP) and Reinforcement Learning (RL).
+
+## Tools
+
+### Visualisation Tool
+This repository also includes a simple visualisation tool that is intended to allow viewing of the network structure and firing over time.
