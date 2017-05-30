@@ -10,6 +10,7 @@ class Neuron:
     self.output = 0
     self.threshold = 0
     self.fired = False
+    self.potential = 0
     self.weights = np.array([self.init_weight(weights) for x in range(weights)])
 
   def fire(self):
