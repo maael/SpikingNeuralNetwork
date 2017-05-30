@@ -1,9 +1,9 @@
 from snn.learning.method import LearningMethod
 
 """
-Basic Reinforcement Learning Method
+Homeostatic variant of STDP Learning Method
 """
-class Reinforce(LearningMethod):
+class HomeostaticSTDP(LearningMethod):
   def __init__(self):
     self.adjustment = 0.1
 
