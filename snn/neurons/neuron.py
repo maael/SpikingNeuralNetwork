@@ -11,7 +11,7 @@ class Neuron:
     self.threshold = 0
     self.fired = False
     self.potential = 0
-    self.weights = np.array([self.init_weight(weights) for x in range(weights)])
+    self.weights = np.array([self.init_weight(weights) for x in range(weights)], dtype='float64')
 
   def fire(self):
     self.fired = True if (self.value > self.threshold) else False
