@@ -5,6 +5,7 @@ Basic neuron model with shared instantiation
 """
 class Neuron:
   def __init__(self, weights=0):
+    np.seterr(all='ignore')
     self.input = 0
     self.value = 0
     self.output = 0

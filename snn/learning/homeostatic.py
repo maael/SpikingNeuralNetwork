@@ -7,6 +7,7 @@ Homeostatic variant of STDP Learning Method
 class HomeostaticSTDP(STDP):
   def __init__(self, options={}):
     super(self.__class__, self).__init__()
+    np.seterr(all='ignore')
     self.setup_method(options)
 
   def set_self_options_or_default(self, name, options, default):
