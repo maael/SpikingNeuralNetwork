@@ -25,7 +25,6 @@ class HomeostaticSTDP(STDP):
     self.set_self_options_or_default('beta', options, (4 * (10 ^ -5)))
     self.set_self_options_or_default('gamma', options, (10 ^ -7))
     self.set_self_options_or_default('activity_goal', options, 1)
-    self.set_self_options_or_default('is_setup', options, False)
 
   def setup_neuron(self, neuron):
     if not hasattr(neuron, 'firing_count'):
